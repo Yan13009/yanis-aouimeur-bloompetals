@@ -1,0 +1,103 @@
+/* Styles du corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('realisation/entreprise-background.jpg'); /* Assurez-vous que le nom du fichier image est correct */
+    background-position: center; /* Centrez l'image de fond horizontalement */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image de fond */
+    background-size: cover; /* Ajuste la taille de l'image de fond pour couvrir tout l'écran */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Couleur du texte sur le fond d'écran */
+    position: relative; /* Pour positionner correctement la superposition */
+}
+
+/* Style de l'en-tête */
+header {
+    background-color: rgba(51, 51, 51, 0.8); /* Couleur de fond semi-transparente pour améliorer la visibilité du texte */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styles de la section "Notre Entreprise" */
+.about {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Fond semi-transparent */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #333; /* Couleur du texte */
+}
+
+/* Styles de la section "Notre Équipe" */
+.team {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Fond semi-transparent */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #333; /* Couleur du texte */
+}
+
+/* Styles pour les photos de l'équipe */
+.team img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+/* Styles pour les liens dans le header */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Style pour le texte principal */
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+/* Style pour le texte des membres de l'équipe */
+.team-member p {
+    text-align: center;
+    color: #333;
+}
+/* Positionnement de la barre de recherche */
+#search-form {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/* Style de la barre de recherche */
+#search-bar {
+    width: 200px; /* Largeur de la zone de recherche */
+    padding: 5px;
+}
+
+/* Style du bouton de recherche */
+#search-button {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}

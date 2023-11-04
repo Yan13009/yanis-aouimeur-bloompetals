@@ -1,0 +1,128 @@
+/* Style du corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background: rgba(240, 240, 240, 0.8) url('realisation/bois\ de\ grange.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    color: #000000; /* Couleur du texte principal */
+}
+
+/* Style de l'en-tête */
+header {
+    background-color: #8B4513; /* Brun foncé */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style du titre principal */
+h1 {
+    color: #8B4513; /* Brun foncé */
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style des images (plus petites) */
+.horizontal-image {
+    width: 200px;
+    height: 145px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+/* Style du conteneur des images horizontales */
+.horizontal-images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Style du texte au milieu */
+.middle-text {
+    text-align: center;
+    color: #000000; /* Couleur du texte */
+}
+
+/* Style du pied de page */
+footer {
+    background-color: #8B4513; /* Brun foncé */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style pour la liste de liens dans le header */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.center-text {
+    text-align: center;
+    color: #000000; /* Couleur du texte */
+}
+
+.vertical-container {
+    display: flex;
+    align-items: center;
+}
+
+.vertical-item {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.vertical-item img {
+    height: 100px;
+    margin-right: 10px;
+}
+
+.rotated-text {
+    transform: rotate(-90deg);
+    transform-origin: top left;
+    white-space: nowrap;
+    margin-left: 20px;
+    padding: 10px;
+}
+/* Positionnement de la barre de recherche */
+#search-form {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/* Style de la barre de recherche */
+#search-bar {
+    width: 200px; /* Largeur de la zone de recherche */
+    padding: 5px;
+}
+
+/* Style du bouton de recherche */
+#search-button {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}

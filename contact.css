@@ -1,0 +1,124 @@
+/* Style du corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('realisation/font%20page%20contact.webp');
+    background-position: right; /* Centre l'image de fond */
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    color: #ffffff; /* Couleur du texte sur le fond d'écran */
+    position: relative; /* Pour positionner correctement la superposition */
+}
+
+/* Ajoutez une superposition semi-transparente */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Couleur de superposition semi-transparente */
+    z-index: -1; /* Placez la superposition en arrière-plan */
+}
+
+/* Style de l'en-tête */
+header {
+    background-color: rgb(0, 0, 0); /* Couleur de fond gris clair */
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+/* Style pour la liste de liens dans le header */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+/* Style des liens dans la liste de navigation */
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #ffffff; /* Couleur du texte pour les liens */
+    text-decoration: none;
+    font-size: 18px; /* Augmentez la taille du texte pour les liens */
+}
+
+nav a:hover {
+    text-decoration: underline;
+    font-weight: bold; /* Mettez en surbrillance les liens au survol */
+}
+
+/* Styles de la section "Notre Entreprise" */
+.about {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles de la section "Notre Équipe" */
+.team {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles pour les photos de l'équipe */
+.team img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+/* Style du pied de page */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+/* Liens */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* Positionnement de la barre de recherche */
+#search-form {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/* Style de la barre de recherche */
+#search-bar {
+    width: 200px; /* Largeur de la zone de recherche */
+    padding: 5px;
+}
+
+/* Style du bouton de recherche */
+#search-button {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
